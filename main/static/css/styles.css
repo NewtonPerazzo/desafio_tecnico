@@ -1,0 +1,26 @@
+h1{
+    color: #4f4f4f;
+    font-size: 18px;
+}
+
+.imagem{
+    float: right;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.4em;
+    padding: 0.5em;
+    width: auto;
+    height: auto;
+}
+.paragrafos{
+    text-align: justify;
+    font-size: 14px;
+}
+
+footer{
+    background-color: #333333;
+    height: 150px;
+    border-top: 2px solid #202020;
+    color: #ffefef;
+    font-size: 14px;
+}

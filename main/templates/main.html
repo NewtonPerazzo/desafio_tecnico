@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Matéria - Saúde em Feira</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/styles.css'%}">
+</head>
+<body>
+    <div class="offset-0 col-12 list-div mt-4">
+            <h1>
+                {{ titulo }}
+            </h1>
+            <div class="imagem">
+                <a href="{% url 'main' %}">
+                <img src="{% static 'img/vacina.jpg' %}"  width="300px" height="200px">
+                </a>
+            </div>
+            <div class="col-10 add-div">
+                <div class="paragrafos">
+                    <p>
+                        {{ p1 }}
+                    </p>
+                    <p>
+                        {{ p2 }}
+                    </p>
+                    <p>
+                        {{ p3 }}
+                    </p>
+                    <p>
+                        {{ p4 }}
+                    </p>
+                    <p>
+                        {{ p5 }}
+                    </p>
+                    <p>
+                        {{ p6 }}
+                    </p>
+                    <p>
+                        {{ data }}
+                    </p>
+                </div>
+            </div>
+            <footer>
+                <p>
+                    Fonte:
+                    <a href="https://www.acordacidade.com.br" target="_blank" target="_blank">{{ fonte }}</a>
+                </p>
+                <p> Desenvolvido por: Newton Perazzo </p>
+            </footer>
+        </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

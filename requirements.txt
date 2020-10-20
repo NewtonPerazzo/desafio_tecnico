@@ -1,0 +1,8 @@
+asgiref==3.2.10
+Django==3.1.2
+iniconfig==1.1.1
+py==1.9.0
+pytz==2020.1
+selenium==3.141.0
+sqlparse==0.4.1
+urllib3==1.25.10

@@ -1,0 +1,33 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="CssUnknownProperty" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myCustomPropertiesEnabled" value="true" />
+      <option name="myIgnoreVendorSpecificProperties" value="false" />
+      <option name="myCustomPropertiesList">
+        <value>
+          <list size="18">
+            <item index="0" class="java.lang.String" itemvalue="   -webkit-border-radius" />
+            <item index="1" class="java.lang.String" itemvalue="   box-shadow" />
+            <item index="2" class="java.lang.String" itemvalue="   padding" />
+            <item index="3" class="java.lang.String" itemvalue="   font-weight" />
+            <item index="4" class="java.lang.String" itemvalue="   font-size" />
+            <item index="5" class="java.lang.String" itemvalue="   font-family" />
+            <item index="6" class="java.lang.String" itemvalue="   border-radius" />
+            <item index="7" class="java.lang.String" itemvalue="   color" />
+            <item index="8" class="java.lang.String" itemvalue="   -moz-border-radius" />
+            <item index="9" class="java.lang.String" itemvalue="   -webkit-box-shadow" />
+            <item index="10" class="java.lang.String" itemvalue="   -moz-box-shadow" />
+            <item index="11" class="java.lang.String" itemvalue="   text-shadow" />
+            <item index="12" class="java.lang.String" itemvalue="   border" />
+            <item index="13" class="java.lang.String" itemvalue="   text-decoration" />
+            <item index="14" class="java.lang.String" itemvalue="   display" />
+            <item index="15" class="java.lang.String" itemvalue="   cursor" />
+            <item index="16" class="java.lang.String" itemvalue="   text-align" />
+            <item index="17" class="java.lang.String" itemvalue="   background-image" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
